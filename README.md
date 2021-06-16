@@ -13,6 +13,8 @@ LAMP ein Akronym für den kombinierten Einsatz von Programmen auf Basis von Linu
 
 * [http://${ADDR}/adminer/](http://${ADDR}/adminer/)
 
+User ist `root` und für das Password siehe Tab "Accessing". Es ist das gleiche wie für den User `ubuntu` zum sich via SSH einzuloggen.
+
 **Dateiablage**
 
 Eigene PHP Dateien können im Verzeichnis `/home/ubuntu/data` angelegt werden und sind mittels [http://${ADDR}/data/](http://${ADDR}/data/) erreichbar.
