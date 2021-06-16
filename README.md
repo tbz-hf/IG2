@@ -9,7 +9,12 @@ LAMP ein Akronym für den kombinierten Einsatz von Programmen auf Basis von Linu
 * [Datenbank - MySQL](https://www.mysql.com/)
 * [Programmiersprache - PHP](https://de.wikipedia.org/wiki/PHP)
 
-Zugriff auf [Adminer](https://www.adminer.org/)
+**Zugriff auf [Adminer](https://www.adminer.org/)**
 
 * [http://${ADDR}/adminer/](http://${ADDR}/adminer/)
+
+**Dateiablage**
+
+Eigene PHP Dateien können im Verzeichnis `/home/ubuntu/data` angelegt werden und sind mittels [http://${ADDR}/data/](http://${ADDR}/data/) erreichbar.
+
 
