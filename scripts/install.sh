@@ -13,3 +13,9 @@ sudo systemctl restart apache2
 
 # Introseite 
 bash -x /opt/lernmaas/helper/intro
+
+# PHP Startseite
+
+cat <<%EOF% >~/data/index.php
+ <?php echo '<p>In diesem Verzeichnis können eigene PHP Dateien abgelegt werden.</p>'; ?>
+%EOF%
